@@ -7,3 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Chirp Web App
+
+Chirp is a simple social-style web application that allows users to post short messages (chirps), similar to a microblogging platform.
+
+> 🚧 **Status:** Under Development  
+This project is still in active development. Features, structure, and UI are subject to change.
+
+## Features (Current / Planned)
+- User authentication
+- Create, edit, and delete chirps
+- Timeline of chirps
+- Basic authorization
+- Clean and minimal UI
+
+## Tech Stack
+- **Backend:** Laravel
+- **Frontend:** Blade + Vite
+- **Database:** MySQL / SQLite
+- **Auth:** Laravel built-in authentication
+
+## Installation (Local)
+```bash
+git clone <repo-url>
+cd chirp
+composer install
+npm install
+php artisan migrate
+npm run dev
+php artisan serve
